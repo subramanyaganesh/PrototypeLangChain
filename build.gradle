@@ -18,6 +18,16 @@ dependencies {
     implementation 'io.quarkus:quarkus-arc'
     testImplementation 'io.quarkus:quarkus-junit5'
     testImplementation 'io.rest-assured:rest-assured'
+
+
+// https://mvnrepository.com/artifact/io.quarkus/quarkus-rest-jackson
+    implementation group: 'io.quarkus', name: 'quarkus-rest-jackson', version: '3.14.4'
+    // https://mvnrepository.com/artifact/org.json/json
+    implementation group: 'org.json', name: 'json', version: '20240303'
+
+
+
+
 }
 
 group 'org.acme'
